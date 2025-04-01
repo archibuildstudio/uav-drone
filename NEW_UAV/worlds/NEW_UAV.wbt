@@ -1,0 +1,421 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/buildings/protos/SuburbanHouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/samples/contests/robocup/protos/RobocupSoccerField.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/garden/protos/PicketFence.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/vehicles/protos/tesla/TeslaModel3Simple.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/vehicles/protos/lincoln/LincolnMKZSimple.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/humans/pedestrian/protos/Pedestrian.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/Pine.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/garden/protos/SwingCouch.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/buildings/protos/GasStation.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/road/protos/StraightRoadSegment.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/dji/mavic/protos/Mavic2Pro.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/buildings/protos/ComposedHouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/buildings/protos/SmallManor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/buildings/protos/SmallResidentialTower.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/Forest.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/buildings/protos/Windmill.proto"
+
+WorldInfo {
+  basicTimeStep 8
+}
+Viewpoint {
+  orientation -0.18000597241077373 -0.05708740926295675 0.982007575123581 3.462506432108773
+  position 92.42533551666897 18.70213044033027 45.68510155754342
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Pine {
+  translation -9.8 11.05 0
+}
+Pine {
+  translation 1.99 7.81 0
+  name "pine tree(8)"
+}
+Pine {
+  translation 6.2 7.81 0
+  name "pine tree(9)"
+}
+Pine {
+  translation 11.57 7.81 0
+  name "pine tree(10)"
+}
+Pine {
+  translation 21.2 7.81 0
+  name "pine tree(11)"
+}
+Pine {
+  translation -9.8 14.75 0
+  name "pine tree(1)"
+}
+Pine {
+  translation -9.8 19.01 0
+  name "pine tree(2)"
+}
+Pine {
+  translation -9.8 23.44 0
+  name "pine tree(3)"
+}
+Pine {
+  translation -11.86 25.38 0
+  name "pine tree(4)"
+}
+Pine {
+  translation -15.41 25.38 0
+  name "pine tree(5)"
+}
+Pine {
+  translation -19.23 25.38 0
+  name "pine tree(6)"
+}
+Pine {
+  translation -22.68 25.38 0
+  name "pine tree(7)"
+}
+SwingCouch {
+  translation -23.28 22.25 0
+}
+SwingCouch {
+  translation -23.28 17.55 0
+  name "swing couch(1)"
+}
+SwingCouch {
+  translation -23.28 12.54 0
+  name "swing couch(2)"
+}
+GasStation {
+  translation 34.37 -35.3 0
+  rotation 0 0 1 1.5708
+}
+LincolnMKZSimple {
+  translation 10.97 12.38 0.4
+  rotation 0 0 1 3.14159
+  name "vehicle(3)"
+}
+LincolnMKZSimple {
+  translation 11.07 -11.82 0.35
+  rotation 0 0 1 -1.5707953071795862
+  name "vehicle(1)"
+}
+LincolnMKZSimple {
+  translation 8 -11.82 0.34
+  rotation 0 0 1 -1.5707953071795862
+  color 0.541 1 0.541
+  name "vehicle(2)"
+}
+LincolnMKZSimple {
+  translation -8.99 -11.82 0.38
+  rotation 0 0 1 -1.5707953071795862
+  color 1 0 0
+  name "vehicle(4)"
+}
+LincolnMKZSimple {
+  translation -11.68 -11.82 0.35
+  rotation 0 0 1 -1.5707953071795862
+  color 0 0 1
+  name "vehicle(5)"
+}
+SmallResidentialTower {
+  translation 20.41 -24.7 0
+  rotation 0 0 1 1.5708
+}
+Pedestrian {
+  translation 1 12.85 1.27
+}
+Pedestrian {
+  translation 1.71 12.85 1.26
+  rotation 0 0 1 -2.8797953071795863
+  name "pedestrian(1)"
+  shirtColor 0.25 0 0.2
+  shoesColor 0 0 0.06
+}
+RectangleArena {
+  name "rectangle arena(1)"
+  floorSize 100 100
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+SuburbanHouse {
+  translation 11.1 20.72 0
+  rotation 0 0 1 -1.5707953071795862
+}
+RobocupSoccerField {
+  translation -15.76 16.93 0.01
+  rotation 0 0 1 1.5708
+}
+TeslaModel3Simple {
+  translation 16.24 16.41 0.4
+  rotation 0 0 1 1.5708
+}
+PicketFence {
+  translation -7.82 6.81 0
+  rotation 0 0 1 -2.3561953071795863
+  name "picket fence(2)"
+}
+PicketFence {
+  translation -9.02903 8.01903 0
+  rotation 0 0 1 -2.8797953071795863
+  name "picket fence(3)"
+}
+PicketFence {
+  translation -9.4742 9.68016 0
+  rotation 0 0 1 3.14159
+  name "picket fence(4)"
+}
+PicketFence {
+  translation -9.4742 11.3702 0
+  rotation 0 0 1 3.14159
+  name "picket fence(5)"
+}
+PicketFence {
+  translation -9.4742 13.0802 0
+  rotation 0 0 1 3.14159
+  name "picket fence(6)"
+}
+PicketFence {
+  translation -9.4742 14.7902 0
+  rotation 0 0 1 3.14159
+  name "picket fence(7)"
+}
+PicketFence {
+  translation -9.4742 16.5102 0
+  rotation 0 0 1 3.14159
+  name "picket fence(8)"
+}
+PicketFence {
+  translation -9.4742 17.7202 0
+  rotation 0 0 1 3.14159
+  name "picket fence(9)"
+}
+PicketFence {
+  translation -9.4742 19.4002 0
+  rotation 0 0 1 3.14159
+  name "picket fence(10)"
+}
+PicketFence {
+  translation -9.4742 21.0802 0
+  rotation 0 0 1 3.14159
+  name "picket fence(11)"
+}
+PicketFence {
+  translation -9.4742 22.8302 0
+  rotation 0 0 1 3.14159
+  name "picket fence(12)"
+}
+PicketFence {
+  translation -9.4742 22.8302 0
+  rotation 0 0 1 3.14159
+  name "picket fence(13)"
+}
+PicketFence {
+  translation -9.4742 24.5602 0
+  rotation 0 0 1 3.14159
+  name "picket fence(14)"
+}
+PicketFence {
+  translation -9.4742 25.8802 0
+  rotation 0 0 1 -1.5707953071795862
+  name "picket fence(15)"
+}
+PicketFence {
+  translation -11.2042 25.8802 0
+  rotation 0 0 1 -1.5707953071795862
+  name "picket fence(16)"
+}
+PicketFence {
+  translation -12.9242 25.8802 0
+  rotation 0 0 1 -1.5707953071795862
+  name "picket fence(17)"
+}
+PicketFence {
+  translation -14.6142 25.8802 0
+  rotation 0 0 1 -1.5707953071795862
+  name "picket fence(18)"
+}
+PicketFence {
+  translation -16.3442 25.8802 0
+  rotation 0 0 1 -1.5707953071795862
+  name "picket fence(19)"
+}
+PicketFence {
+  translation -18.0742 25.8802 0
+  rotation 0 0 1 -1.5707953071795862
+  name "picket fence(20)"
+}
+PicketFence {
+  translation -19.7342 25.8802 0
+  rotation 0 0 1 -1.5707953071795862
+  name "picket fence(21)"
+}
+PicketFence {
+  translation -21.4342 25.8802 0
+  rotation 0 0 -0.9999999999999999 1.5707953071795862
+  name "picket fence(22)"
+}
+PicketFence {
+  translation -23.1642 25.8802 0
+  rotation 0 0 -0.9999999999999999 1.5707953071795862
+  name "picket fence(23)"
+}
+PicketFence {
+  translation -24.8442 25.8802 0
+  rotation 0 0 1 1.01503e-06
+  name "picket fence(24)"
+}
+PicketFence {
+  translation -24.8442 24.1902 0
+  rotation 0 0 1 1.01503e-06
+  name "picket fence(25)"
+}
+PicketFence {
+  translation -24.8442 22.4602 0
+  rotation 0 0 1 1.01503e-06
+  name "picket fence(26)"
+}
+PicketFence {
+  translation -24.8442 20.7102 0
+  rotation 0 0 1 1.01503e-06
+  name "picket fence(27)"
+}
+PicketFence {
+  translation -24.8442 18.9502 0
+  rotation 0 0 1 1.01503e-06
+  name "picket fence(28)"
+}
+PicketFence {
+  translation -24.8442 17.2402 0
+  rotation 0 0 1 1.01503e-06
+  name "picket fence(29)"
+}
+PicketFence {
+  translation -24.8442 15.5602 0
+  rotation 0 0 1 1.01503e-06
+  name "picket fence(30)"
+}
+PicketFence {
+  translation -24.8442 13.7902 0
+  rotation 0 0 1 1.01503e-06
+  name "picket fence(31)"
+}
+PicketFence {
+  translation -24.8442 12.0202 0
+  rotation 0 0 1 1.01503e-06
+  name "picket fence(32)"
+}
+PicketFence {
+  translation -24.8442 10.3002 0
+  rotation 0 0 1 1.01503e-06
+  name "picket fence(33)"
+}
+PicketFence {
+  translation -23.1842 8.6402 0
+  rotation 0 0 1 1.5708
+  name "picket fence(34)"
+}
+PicketFence {
+  translation -21.4642 8.6402 0
+  rotation 0 0 1 1.5708
+  name "picket fence(36)"
+}
+PicketFence {
+  translation -19.7342 8.6402 0
+  rotation 0 0 1 1.5708
+  name "picket fence(37)"
+}
+PicketFence {
+  translation -18.0342 8.6402 0
+  rotation 0 0 1 1.5708
+  name "picket fence(38)"
+}
+PicketFence {
+  translation -16.2942 8.6402 0
+  rotation 0 0 1 1.5708
+  name "picket fence(39)"
+}
+PicketFence {
+  translation -15.1642 8.6402 0
+  rotation 0 0 1 1.5708
+  name "picket fence(40)"
+}
+PicketFence {
+  translation -0.254163 -31.6398 0
+  rotation 0 0 1 -3.1415853071795863
+  name "picket fence(1)"
+}
+PicketFence {
+  translation -0.254183 -29.9398 0
+  rotation 0 0 1 -3.1415853071795863
+  name "picket fence(41)"
+}
+PicketFence {
+  translation -0.254189 -28.2198 0
+  rotation 0 0 1 -3.1415853071795863
+  name "picket fence(42)"
+}
+PicketFence {
+  translation -0.254194 -26.5198 0
+  rotation 0 0 1 -3.1415853071795863
+  name "picket fence(43)"
+}
+PicketFence {
+  translation -0.254195 -24.8098 0
+  rotation 0 0 1 -3.1415853071795863
+  name "picket fence(44)"
+}
+PicketFence {
+  translation -24.8442 8.6402 0
+  rotation 0 0 1 1.5708
+  name "picket fence(35)"
+}
+StraightRoadSegment {
+  translation 5 -2 0.1
+  width 15
+}
+StraightRoadSegment {
+  translation 15 -2 0.1
+  name "road(1)"
+  width 15
+}
+StraightRoadSegment {
+  translation -15 -2 0.1
+  name "road(3)"
+  width 15
+}
+Mavic2Pro {
+  translation -2.16 0 0.065
+  name "Mavic 2 PRO(1)"
+  controller "mavic2pro_patrol"
+}
+ComposedHouse {
+  translation -22.75 -7.84 0
+}
+ComposedHouse {
+  translation -5.98 -25.8 0
+  rotation 0 0 1 1.5708
+  name "composed house(1)"
+}
+SmallManor {
+  translation 7.49998 -25.02 0
+  rotation 0 0 1 1.5708
+}
+Mavic2Pro {
+}
+Forest {
+  translation 13.115 36.4425 0
+  rotation 0 0 1 1.0472
+}
+Forest {
+  translation -14.7381 40.18 0
+  rotation 0 0 1 1.0472
+}
+Windmill {
+  translation -23.73 -17.38 0
+}
